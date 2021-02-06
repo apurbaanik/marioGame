@@ -1,0 +1,71 @@
+.main{
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #FFFF00;
+  border-width: thick;
+  border-color: black;
+  border-style:solid;
+}
+
+body{
+  background-color: royalblue;
+  color: white;
+}
+
+#mario{
+    position:relative;
+    top: 135px;
+}
+
+#img1{
+  width: 60px;
+}
+
+#img2{
+  width: 20px;
+}
+
+#cover{
+  width: 300px;
+  height: 200px;
+  border-width: thick;
+  border-color: black;
+  border-style:dashed;
+}
+
+.animate{
+  animation: jump 0.3s;
+}
+
+@keyframes jump{
+  0%{top: 160px;}
+  20%{top: 100px;}
+  80%{top: 100px;}
+  100%{top: 160px;}
+}
+
+#block{
+  position: relative;
+  top: 110px;
+  left: 450px;
+}
+
+.animate2{
+  animation: block 1s infinite linear;
+}
+
+@keyframes block{
+  0%{left: 500px}
+  100%{left: -20px}
+}
+
+p{
+  text-align: center;
+}
+
+button{
+  color: white;
+  background-color: red;
+}
